@@ -3,11 +3,11 @@
   hosts: localhost
   tasks:
     - name: print hello world
-    debug:
-      msg: "hello world!..."
+      debug:
+        msg: "hello world!..."
     - name: print host name
-    debug:
-      var: ansible_hostname
+      debug:
+        var: ansible_hostname
     - name: print Ubuntu version
-    debug:
-      var: ansible_distribution
+      debug:
+        var: ansible_distribution
