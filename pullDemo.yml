@@ -1,6 +1,6 @@
 ---
 - name: First Pull demo Ansible playbook
-  host localhost
+  hosts: localhost
   tasks:
     -name: print hello world
     debug:
